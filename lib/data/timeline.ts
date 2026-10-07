@@ -12,7 +12,7 @@ export const timeline: TimelineEntry[] = [
     title: "Desenvolvedor Júnior",
     org: "Cocari",
     description:
-      "Manutenção e evolução de sistemas internos em Progress ABL, incluindo correções, melhorias contínuas, otimização de consultas e suporte às aplicações utilizadas pela cooperativa.",
+      "Trabalho na manutenção de sistemas internos em Progress ABL. Faço correções, melhoro consultas e dou suporte às aplicações usadas pela cooperativa.",
     tags: ["Progress ABL", "Sistemas Corporativos", "Manutenção", "Otimização"],
   },
   {
@@ -20,7 +20,7 @@ export const timeline: TimelineEntry[] = [
     title: "Analista de Sistemas",
     org: "Stationsoft Sistemas",
     description:
-      "Atuação no desenvolvimento e manutenção de aplicações web, mobile e integrações entre sistemas internos. Participação direta na evolução de chatbot corporativo desenvolvido em BLIP, além de trabalhos com Salesforce CRM e bases de dados.",
+      "Desenvolvi e mantive aplicações web, mobile e integrações entre sistemas. Também trabalhei na evolução de um chatbot em BLIP, com Salesforce CRM e com bases de dados.",
     tags: [
       "React Native",
       "Salesforce",
@@ -34,7 +34,7 @@ export const timeline: TimelineEntry[] = [
     title: "Estágio — Desenvolvedor Full Stack",
     org: "Stationsoft Sistemas",
     description:
-      "Apoio na análise de soluções, desenvolvimento frontend e backend, modelagem de banco de dados, manutenção de sistemas e implementação de funcionalidades internas.",
+      "Apoiei o desenvolvimento de frontend e backend, a modelagem de bancos de dados e a manutenção de sistemas. Também participei da análise de soluções e da implementação de funcionalidades internas.",
     tags: ["Frontend", "Backend", "Banco de Dados", "Manutenção"],
   },
   {
@@ -42,7 +42,7 @@ export const timeline: TimelineEntry[] = [
     title: "Bacharelado em Engenharia de Software",
     org: "Unicesumar",
     description:
-      "Formação acadêmica com projetos envolvendo APIs, integrações, aplicações web, banco de dados e automações, utilizando Java, Python, JavaScript, TypeScript, MySQL e MongoDB.",
+      "Durante a graduação, desenvolvi projetos com APIs, aplicações web, bancos de dados e automações. Trabalhei com Java, Python, JavaScript, TypeScript, MySQL e MongoDB.",
     tags: ["Java", "Python", "JavaScript", "TypeScript", "APIs", "Banco de Dados"],
   },
 ];

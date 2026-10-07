@@ -24,16 +24,15 @@ export function SectionTitle({
       )}
     >
       {eyebrow && (
-        <span className="inline-flex items-center gap-2 self-start rounded-full border border-white/10 bg-white/[0.025] px-3 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-zinc-400">
-          <span className="size-1.5 rounded-full bg-fuchsia-400 shadow-[0_0_10px_2px_rgba(168,85,247,0.7)]" />
+        <span className={cn("self-start font-mono text-xs uppercase tracking-[0.16em] text-accent", align === "center" && "self-center")}>
           {eyebrow}
         </span>
       )}
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-tight text-gradient max-w-2xl">
+      <h2 className="max-w-3xl text-3xl font-semibold leading-tight tracking-[-0.035em] text-foreground sm:text-4xl">
         {title}
       </h2>
       {description && (
-        <p className="max-w-2xl text-base sm:text-lg leading-relaxed text-zinc-400">
+        <p className="max-w-2xl text-base leading-relaxed text-muted">
           {description}
         </p>
       )}

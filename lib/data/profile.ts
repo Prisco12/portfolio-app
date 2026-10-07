@@ -3,7 +3,7 @@ export const profile = {
   role: "Desenvolvedor Full Stack",
   headline: "Desenvolvedor Full Stack · Backend · Integrações · Automações",
   tagline:
-    "Atuo no desenvolvimento e manutenção de sistemas corporativos, integrações e automações, com foco em backend, APIs e arquitetura de aplicações.",
+    "Trabalho com sistemas corporativos, APIs e automações, com foco em backend e integrações.",
   location: "Brasil",
   email: "gabrielmarcosprisco@gmail.com",
   socials: {
@@ -12,12 +12,6 @@ export const profile = {
     whatsapp: "https://wa.me/5544997759907",
     email: "mailto:gabrielmarcosprisco@gmail.com",
   },
-  stats: [
-    { label: "Programando desde", value: "2021" },
-    { label: "Engenharia de Software", value: "2024" },
-    { label: "Tecnologias", value: "15+" },
-    { label: "Certificações", value: "4" },
-  ],
 } as const;
 
 export type Profile = typeof profile;

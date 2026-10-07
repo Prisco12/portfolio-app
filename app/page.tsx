@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex-1">
+      <main id="conteudo" tabIndex={-1} className="flex-1">
         <Hero />
         <About />
         <Stack />
