@@ -6,6 +6,10 @@ export const profile = {
     "Trabalho com sistemas corporativos, APIs e automações, com foco em backend e integrações.",
   location: "Brasil",
   email: "gabrielmarcosprisco@gmail.com",
+  resume: {
+    href: "/curriculo-gabriel-prisco.pdf",
+    fileName: "Gabriel_Prisco_Curriculo_Full_Stack.pdf",
+  },
   socials: {
     github: "https://github.com/Prisco12",
     linkedin: "https://www.linkedin.com/in/gabriel-prisco-6bb714216/",

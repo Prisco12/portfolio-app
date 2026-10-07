@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowRight } from "lucide-react";
+import { ArrowDown, ArrowRight, Download } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { profile } from "@/lib/data/profile";
@@ -37,6 +37,15 @@ export function Hero() {
               </Button>
               <Button href="#contato" size="lg" variant="outline">
                 Vamos conversar
+              </Button>
+              <Button
+                href={profile.resume.href}
+                download={profile.resume.fileName}
+                size="lg"
+                variant="outline"
+              >
+                <Download aria-hidden="true" className="size-4" />
+                Baixar currículo (PDF)
               </Button>
             </div>
           </div>
